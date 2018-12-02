@@ -1,0 +1,2 @@
+beautifulsoup4==4.6.3
+youtube-dl==2018.11.23
