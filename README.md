@@ -6,7 +6,7 @@ Downloads v.redd.it videos as mp4s.
 
 **Note**: `vdl` downloads to the current directory by default, whereas `vdl.py` creates an `./out/` directory and downloads there.
 
-**Note 2**: Actual v.redd.it URLs don't work too well. Just link the post or grab the MPD url yourself.
+**Note 2**: Actual v.redd.it URLs don't work too well because it should be easier to just link the post itself. If for some reason you find yourself having v.redd.it URLs more easily accessible than the post URL, open an issue and I can make it work.
 
 ### Dependencies
 
@@ -17,7 +17,7 @@ youtube-dl==2018.11.23
 
 (actual version is not a big deal, it only uses basic functionality)
 
-Requirements can also be found in `requirement.txt`.
+Requirements can also be found in `requirements.txt`.
 
 ### Usage
 
@@ -27,4 +27,4 @@ Requirements can also be found in `requirement.txt`.
 
 For example,
 
-`vdl httpshttps://old.reddit.com/r/Animemes/comments/8v27fc/`
+`vdl https://old.reddit.com/r/Animemes/comments/8v27fc/`
