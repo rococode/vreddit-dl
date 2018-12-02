@@ -1,10 +1,12 @@
 ## vreddit-dl
 
-Downloads v.reddit.com videos as mp4s.
+Downloads v.reddit.it videos as mp4s.
 
 `vdl` file is an executable Python 2 script that can be copied right into your path.
 
 **Note**: `vdl` downloads to the current directory by default, whereas `vdl.py` creates an `./out/` directory and downloads there.
+
+**Note 2**: Actual v.redd.it URLs don't work too well. Just link the post or grab the MPD url yourself.
 
 ### Dependencies
 
