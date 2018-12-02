@@ -1,4 +1,4 @@
-### vreddit-dl
+## vreddit-dl
 
 Downloads v.reddit.com videos as mp4s.
 
@@ -17,7 +17,7 @@ youtube-dl==2018.11.23
 
 Requirements can also be found in `requirement.txt`.
 
-## Usage
+### Usage
 
 `vdl <url>`
 
