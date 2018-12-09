@@ -37,7 +37,7 @@ else:
 for u in urls:
     print "Downloading {}...".format(u)
     ydl_opts = {
-        'format': 'bestvideo+bestaudio',
+        'format': 'best',
         'outtmpl': OUT_DIR + os.sep + '%(title)s.%(ext)s'
     }
     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
